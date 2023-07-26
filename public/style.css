@@ -1,0 +1,74 @@
+body{
+    background-image: linear-gradient(rgb(148, 255, 241),#fff79d);
+    height: 100vh;
+}
+
+
+.brand .brand1 h1{
+text-align: center;
+font-style: italic;
+color: rgba(0, 131, 105, 0.873);
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+}
+
+.container{
+    max-width: 955px;
+    background-color: #fff79d;
+    margin: auto;
+    height: 60vh;
+    border-radius: 5%;
+    overflow-y: scroll;
+    margin-bottom: 23px;
+}
+
+.message{
+    background-color: rgb(237, 237, 237);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.incoming{
+    float: left;
+    clear: both;
+}
+
+.outgoing{
+    float: right;
+    clear: both;
+}
+
+
+
+
+
+
+
+.send{
+    padding-left: 245px;
+}
+.send #messageInp{
+    width: 79%;
+    border: 2px solid black;
+    height: 34px;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 20px;
+    
+}
+
